@@ -9,6 +9,8 @@ class SmapleClass extends StatefulWidget {
 class _SmapleClassState extends State<SmapleClass> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Text("Hello"),
+    );
   }
 }
